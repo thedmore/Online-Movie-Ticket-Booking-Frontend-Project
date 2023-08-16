@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ***************************** section 1 *************************************** */
+
+.sect1{
+    display: flex;
+    border-bottom: 1px solid white;
+    height: 520px;
+}
+
+.sect1 div{
+    color: white;
+}
+
+.sect1 div img{
+    margin: 80px 90px;
+    height: 400px;
+    width: 270px;
+}
+
+.sect1 .movie_info{
+    margin-left: 0px;
+    margin-top: 100px;
+}
+
+.sect1 .movie_info .info{
+    margin-bottom: 30px;
+}
+
+#rating_votes span{
+    margin-right: 100px;
+}
+
+div.info p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+p.screen{
+    /* border: 1px solid rebeccapurple; */
+    width: 363px;
+    background-color: rgb(204, 169, 169);
+    color: black;
+    padding: 5px 5px;
+    font-weight:500;
+} 
+p.lang{
+    /* border: 1px solid rebeccapurple; */
+    width: 414px;
+    background-color: rgb(204, 169, 169);
+    color: black;
+    padding: 5px 5px;
+} 
+
+
+.info button{
+    padding: 15px 50px;
+    border-radius: 15px;
+    border: 1px solid rgb(248, 68, 100);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+}
+
+
+
+/* ************************************* section 2 *************************************** */
+
+
+.sect2{
+    margin: 80px 90px;
+}
+.sect2 .about{
+    color: white;
+}
+
+.sect2 h4{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+ .about p{
+    font-size: 20px;
+    margin-bottom: 30px;
+ }
+
+ .cast{
+    color: white;
+ }
+
+ul#cast_list{
+    padding: 1px 1px;
+    margin-right: 100px;
+}
+ ul#cast_list li{
+    font-size: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+.crew{
+    color: white;
+}
+
+ul#crew_list{
+    padding: 1px 1px;
+    margin-right: 100px;
+}
+ ul#crew_list li{
+    font-size: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+#crew_list_work{
+    font-size: 13px;
+}

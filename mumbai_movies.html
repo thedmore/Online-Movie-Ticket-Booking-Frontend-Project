@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmyday - Movie Tickets, Sports, Plays, Events</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <div id="home_logo">
+                <a href="index.html"><img src="home_logo.png" alt=""></a>
+            </div>
+            <li class="item"><a href="movies(mysuru).html">Movies</a></li>
+            <li class="item a"><a>Events</a></li>
+            <li class="item a"><a>Plays</a></li>
+            <li class="item a"><a>Sports</a></li>
+            <li class="item a"><a>Contact</a></li>
+            <li class="item a" id="joinus"><a>Join Us</a></li>
+        </ul>
+    </nav>
+
+
+    <form action="/action_page.php">
+        <label for="location">Location:</label>
+        <select name="links" id="" onchange="la(this.value)">
+          <option value="mumbai_movies.html">Mumbai</option>
+          <option value="movies(mysuru).html">Mysuru</option>
+          <option value="bengaluru_movies.html">Bengaluru</option>
+          <option value="chennai_movies.html">Chennai</option>
+          <option value="delhi_movies.html">Delhi</option>
+          <option value="kolkata_movies.html">Kolkata</option>
+        </select>
+        <br><br>
+        <!-- <input type="submit" value="Submit"> -->
+      </form>
+
+    <!-- <h1>Movies</h1> -->
+    <div class="movie-grid-container">
+        <div class="box">
+            <img src="mumbai_movie_img/m1.avif" alt="">
+            <p><br> <b>Avatar: The way of water</b> <br> UA <br> English, Hindi, Tamil, Telugu </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m2.avif" alt="">
+            <p><br> <b>Ved</b> <br> UA <br> Marathi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m3.avif" alt="">
+            <p><br> <b>Cirkus</b> <br> UA <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m4.avif" alt="">
+            <p><br> <b>Drishyam 2</b> <br> UA <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m5.avif" alt="">
+            <p><br> <b>HIT: The 2nd Case (Hindi)</b> <br> A <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m6.avif" alt="">
+            <p><br> <b>Big Dhamaka</b> <br> UA <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m7.avif" alt="">
+            <p><br> <b>Uunchai</b> <br> U <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m8.avif" alt="">
+            <p><br> <b>Bhediya</b> <br> UA <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m9.avif" alt="">
+            <p><br> <b>Connect (Hindi)</b> <br> UA <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m10.avif" alt="">
+            <p><br> <b>Whitney Houston: I Wanna Dance with Somebody</b> <br> English </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m11.avif" alt="">
+            <p><br> <b>Laththi</b> <br> UA <br> Tamil, Hindi, Kannada </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m12.avif" alt="">
+            <p><br> <b>Aum Mangalam Singlem</b> <br> U <br> Gujarati </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m13.avif" alt="">
+            <p><br> <b>An Action Hero</b> <br> UA <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m14.avif" alt="">
+            <p><br> <b>Dedh Lakh Ka Dulha</b> <br> U <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m15.avif" alt="">
+            <p><br> <b>Kantara (Hindi)</b> <br> UA <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m16.avif" alt="">
+            <p><br> <b>Black Panther: Wakanda Forever</b> <br> UA <br> English, Hindi, Telugu, Tamil </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m17.avif" alt="">
+            <p><br> <b>Salaam Venky</b> <br> U <br> Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m18.avif" alt="">
+            <p><br> <b>Ticket to Paradis</b> <br> UA <br> English </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m19.avif" alt="">
+            <p><br> <b>Strange World</b> <br> U <br> English, Hindi </p>
+        </div>
+        <div class="box">
+            <img src="mumbai_movie_img/m20.avif" alt="">
+            <p><br> <b>Lyle, Lyle, Crocodile</b> <br> U <br> English, Hindi </p>
+        </div>
+    </div>
+    
+    <div class="Click-here">Click Here</div>        
+        <div class="custom-model-main">
+            <div class="custom-model-inner">        
+                <div class="close-btn">×</div>
+                    <div class="custom-model-wrap">
+                        <div class="pop-up-content-wrap">
+                            <b>This section is being disabled for updates... </b><br>
+                            Apologies for the inconvenience!
+                        </div>
+                    </div>  
+                </div>  
+        <div class="bg-overlay"></div>
+    </div> 
+
+    <script>
+        function la(src){
+            window.location=src;
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>    
